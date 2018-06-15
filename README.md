@@ -38,9 +38,9 @@ This code is tested on 64 bit Linux (Ubuntu 14.04 LTS).
   ```
   1. GPU id can changed in the file ./tracking/rpn2t_init_rpn.m;
   2. before showing demo, you may need modify dataset directory in ./utils/genconfig.m
-  3. before showing demo, you should run thin command: addpath(genpath('./'));
+  3. before showing demo, you should run the command: addpath(genpath('./'));
   4. run ./tracking/demo_tracking.m to show demo without GUI. In this way, you only can run with videos form benchmarks;
-  5. or run FRPN2T_GUI_demo.m to show demo with GUI, in this way, you can run with a video (.avi for example) and choose a target.
+  5. or run FRPN2T_GUI_demo.m to show demo with GUI, in this way, you can run with a video (.avi for example) and choose a target manually.
   ```
 
 ### Result 
